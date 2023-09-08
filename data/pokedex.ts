@@ -18037,7 +18037,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Paradox"],
 		eggGroups: ["Undiscovered"],
 	},
-	rotom-galar: {
+	rotomgalar: {
 		num: 1011,
 		name: "Rotom-Galar",
 		baseSpecies: "Rotom",
