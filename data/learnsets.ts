@@ -112,6 +112,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swordsdance: ["8M", "7M", "7V", "6M", "5M", "4M", "3T"],
 			synthesis: ["8L27", "7T", "7L33", "7V", "6T", "6L33", "5T", "5L33", "4T", "4L33", "3L39", "3S0"],
 			tackle: ["8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
+			tackle2: ["8L3", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
 			takedown: ["8L21", "8V", "7L15", "7V", "6L15", "5L15", "4L15"],
 			toxic: ["8E", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			venoshock: ["8M", "7M", "6M", "5M"],
