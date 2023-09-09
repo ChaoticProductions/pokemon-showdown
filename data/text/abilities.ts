@@ -2166,4 +2166,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+	gestalt: {
+		name: "Gestalt",
+		desc: "This Pokemon is immune to Ghost-type moves and raises its Special Attack by 1 stage when hit by a Ghost-type move.",
+		shortDesc: "This Pokemon's Special Attack is raised 1 stage if hit by a Ghost move; Ghost immunity.",
+	},
 };
