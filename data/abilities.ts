@@ -5216,4 +5216,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -4,
 	},
+	gestalt: {
+	sapsipper: {
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ghost') {
+				if (!this.boost({spa: 1})) {
+					this.add('-immune', target, '[from] ability: Gestalt');
+				}
+				return null;
+			}
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (source === this.effectState.target || !target.isAlly(source)) return;
+			if (move.type === 'Ghost') {
+				this.boost({spa: 1}, this.effectState.target);
+			}
+		},
+		isBreakable: true,
+		name: "Gestalt",
+		rating: 3,
+		num: 286,
+	},
 };
