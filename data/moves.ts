@@ -21622,7 +21622,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	guidinglight: {
 		num: 902,
-		accuracy: 85,
+		accuracy: 95,
 		basePower: 80,
 		category: "Special",
 		name: "Guiding Light",
