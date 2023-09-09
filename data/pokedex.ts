@@ -18045,7 +18045,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Ghost", "Fairy"],
 		genderRatio: {M: 0.75, F: 0.25},
 		baseStats: {hp: 56, atk: 43, def: 77, spa: 110, spd: 77, spe: 91},
-		abilities: {0: "Levitate", 1: "Cursed Body"},
+		abilities: {0: "Clear Body", 1: "Cursed Body", H: "Serene Grace"},
 		heightm: 0.8,
 		weightkg: 22.7,
 		color: "Brown",
