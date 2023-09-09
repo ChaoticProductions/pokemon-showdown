@@ -50008,6 +50008,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 10, moves: ["uproar", "confide", "disarmingvoice"], pokeball: "cherishball"},
 		],
 	},
+	rotom: {
+		learnset: {
+			mysticalfire: ["9L1"],
+			willowisp: ["9L1"],
+			infernalparade: ["9L1"],
+	},
 	rotomheat: {
 		learnset: {
 			overheat: ["9L1", "8L1", "7R", "6R", "5R", "4R"],
