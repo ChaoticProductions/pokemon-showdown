@@ -5217,7 +5217,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -4,
 	},
 	gestalt: {
-	sapsipper: {
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Ghost') {
