@@ -6568,6 +6568,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Tackle",
 		shortDesc: "No additional effect.",
 	},
+	tackle2: {
+		name: "Tackle 2",
+		shortDesc: "No additional effect.",
+	},
 	tailglow: {
 		name: "Tail Glow",
 		desc: "Raises the user's Special Attack by 3 stages.",
@@ -7442,5 +7446,9 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Will always result in a critical hit.",
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
+	},
+	guidinglight: {
+		name: "Guiding Light",
+		shortDesc: "No additional effect.",
 	},
 };
