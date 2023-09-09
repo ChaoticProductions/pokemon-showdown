@@ -50010,6 +50010,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rotomgalar: {
 		learnset: {
+			guidinglight: ["9L1"],
 			mysticalfire: ["9L1"],
 			infernalparade: ["9L1"],
 			confusion: ["9L1"],

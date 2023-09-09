@@ -21620,4 +21620,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Tough",
 	},
+	guidinglight: {
+		num: 902,
+		accuracy: 85,
+		basePower: 80,
+		category: "Special",
+		name: "Guiding Light",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1},
+		onHit(target, source, move) {
+			return target.addVolatile('trapped', source, move, 'trapper');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+		zMove: {boost: {atk: 1}},
+		contestType: "Beautiful",
+	},
 };
