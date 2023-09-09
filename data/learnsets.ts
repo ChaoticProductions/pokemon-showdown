@@ -50012,10 +50012,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			mysticalfire: ["9L1"],
 			infernalparade: ["9L1"],
-			astonish: ["9L1"],
 			confusion: ["9L1"],
 			moonblast: ["9L1"],
-			ominouswind: ["9L1"],
 			playrough: ["9L1"],
 			allyswitch: ["8M", "7T"],
 			astonish: ["9L1", "8L1", "7L1", "6L1", "6S1", "5L1", "5S0", "4L1"],
